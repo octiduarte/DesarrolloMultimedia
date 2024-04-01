@@ -1,7 +1,7 @@
 # Trabajo Practico I - Mapa de Experiencia de Usuario
 
 ## Cátedra:
-** Desarrollo Multimedia **
+**Desarrollo Multimedia**
 
 ## Docentes:
 - Jonatan Andres Germann 
