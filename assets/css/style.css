@@ -1324,6 +1324,32 @@ section {
   margin: 0 2px;
 }
 
+.tag {
+  position: absolute;
+  bottom: -50px;
+  left: 20px;
+  right: 20px;
+  background: #fff;
+  padding: 10px 15px;
+  color: #15222b;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.tag-mapa-mental {
+  position: absolute;
+  bottom: -50px;
+  left: 20px;
+  right: 20px;
+  background: #fff;
+  padding: 5px 15px;
+  color: #15222b;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: 0.5s;
+}
+
 @media (max-width: 992px) {
   .team .member {
     margin-bottom: 110px;
