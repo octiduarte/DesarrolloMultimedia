@@ -20,7 +20,7 @@ Ingeniería en Sistemas de Información - Comision "A"
 Ideal y coneptualizar un producto digital y sus funciones básicas en un mapa de experiencia de usuario
 
 ## Link de la presentación del trabajo:
-POR HACER
+- [SobrApp](https://sobrapp.netlify.app/)
 
 ---
 ## Template Utilizada
