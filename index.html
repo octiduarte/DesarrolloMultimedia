@@ -24,7 +24,9 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat|Montserrat+Subrayada|Roboto|Roboto+Condensed|Roboto+Mono|Roboto+Slab|Ropa+Sans" rel="stylesheet">
+ 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
@@ -43,7 +45,7 @@
   <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center justify-content-between">
 
-      <h1 class="logo"><a href="index.html">SobrApp</a></h1>
+      <a href="#hero"><img src="./assets/img/logo/sobrapp (3).png" alt="" width="60%"></a>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -54,7 +56,7 @@
           <li><a class="nav-link scrollto" href="#about">Problematica</a></li>
           <li><a class="nav-link scrollto " href="#portfolio">Objetivos</a></li>
           <li><a class="nav-link scrollto" href="#services">Funcionalidades</a></li>
-          <li class="dropdown"><a href=""><span>UX</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><a href=""><span>TP1</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a class="nav-link scrollto"  href="#perfil">Perfil de Usuario</a></li>
               <li><a class="nav-link scrollto"  href="#empatia">Mapa de empatia</a></li>
@@ -63,7 +65,16 @@
               <li><a class="nav-link scrollto" href="#mapa">Mapa mental</a></li>
             </ul>
           </li>
-          <li><a class="nav-link scrollto" href="#contact">Contactanos</a></li>
+          <li class="dropdown"><a href=""><span>TP2</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a class="nav-link scrollto"  href="#benchmark">Benchmark</a></li>
+              <li><a class="nav-link scrollto"  href="#heurísticas">Heurísticas</a></li>
+              <li><a class="nav-link scrollto"  href="#nombreymarca">Nombre y Marca</a></li>
+              <li><a class="nav-link scrollto" href="#wireframe">Wireframe</a></li>
+              <li><a class="nav-link scrollto" href="#moodboard">Moodboard</a></li>
+              <li><a class="nav-link scrollto" href="#mockup">Mockup</a></li>
+            </ul>
+          </li>          <li><a class="nav-link scrollto" href="#contact">Contactanos</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -74,15 +85,18 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero">
     <div class="hero-container" data-aos="fade-up" data-aos-delay="150">
-      <h1>SobrApp</h1>
+      <img src="./assets/img/logo/sobrappPortada.png" alt="">
       <h2>¡Únite a SobrApp y sé parte del movimiento para combatir el desperdicio de alimentos y alimentar a quienes más lo necesitan!</h2>
       <div class="d-flex">
-        <a href="#team" class="btn-get-started scrollto">Comenzar</a>
+        <a href="#team" class="btn-get-started scrollto">Primer recorrido</a>
+      </div>
+      <div class="d-flex" style="margin-top: 10px;">
+        <a href="#benchmark" class="btn-get-started scrollto">Segundo recorrido</a>
       </div>
     </div>
   </section><!-- End Hero -->
 
-  <main id="main">
+  <main id="mina">
 
     <!-- ======= Team Section ======= -->
     <section id="team" class="team section-bg">
@@ -201,9 +215,9 @@
             <h3>Se agrava el problema en Argentina de los comedores.</h3>
             <ul>
               <li><i class="bx bx-check-double"></i>Los comedores no rinden</li>
-              <li><i class="bx bx-check-double"></i> Falta de recursos para ofrecer comidas nutritivas y equilibradas.</li>
-              <li><i class="bx bx-check-double"></i> Dificultad para mantener la calidad e higiene de los alimentos debido a la falta de infraestructura.</li>
-              <li><i class="bx bx-check-double"></i> Escasez de personal capacitado para gestionar eficientemente los comedores y satisfacer la demanda.</li>
+              <li><i class="bx bx-check-double"></i>Falta de recursos para ofrecer comidas nutritivas y equilibradas.</li>
+              <li><i class="bx bx-check-double"></i>Dificultad para mantener la calidad e higiene de los alimentos debido a la falta de infraestructura.</li>
+              <li><i class="bx bx-check-double"></i>Escasez de personal capacitado para gestionar eficientemente los comedores y satisfacer la demanda.</li>
             </ul>
             <p>
               Los comedores sociales enfrentan dificultades para satisfacer la demanda debido a la falta de alimentos, provocada por limitaciones financieras y escasas donaciones.
@@ -444,7 +458,7 @@
 <!-- End Empatia -->
 
  <!-- ======= Flujo de Usuario ======= -->
- <section id="flujo" class="team section-bg">
+<section id="flujo" class="team section-bg">
   <div class="container" data-aos="fade-up">
 
     <div class="section-title">
@@ -502,7 +516,6 @@
 <!-- ======= Mapa mental ======= -->
 <section id="mapa" class="team section-bg">
   <div class="container" data-aos="fade-up">
-
     <div class="section-title">
       <h2>UX</h2>
       <p>Mapa mental</p>
@@ -517,16 +530,274 @@
           </div>
         </div>
       </div>
-      
-
     </div>
-
   </div>
 </section><!-- End mapa -->
 
+
+<!-- ======= Benchmark ======= -->
+<section id="benchmark" class="team section-bg">
+  <div class="container" data-aos="fade-up">
+
+    <div class="section-title">
+      <h2>Benchmark</h2>
+      <p>Estudio de otras aplicaciones</p>
+    </div>
+
+    <div class="d-flex justify-content-center">
+      <div class="col-lg-8 col-md-6">
+        <div class="member" data-aos="fade-up" data-aos-delay="100">
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./assets/img/carrousel/carrousel1.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/carrousel/carrousel2.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/carrousel/carrousel3.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/carrousel/carrousel4.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+      </div>
+    </div>
+  </div>
+</section><!-- End Benchmark-->
+
+<!-- ======= Heuristica ======= -->
+<section id="heurísticas" class="services section-bg">
+  <div class="container" data-aos="fade-up">
+    <div class="section-title">
+      <h2>Heuristica</h2>
+      <p>Principios generales para el diseño de interacciones</p>
+    </div>
+    <div class="row" data-aos="fade-up" data-aos-delay="200">
+      <div class="col-md-6">
+        <div class="icon-box">
+          <i class="bi bi-card-checklist"></i>
+          <h4><a href="#">Visibilidad del estado del sistema</a></h4>
+        </div>
+      </div>
+      <div class="col-md-6 mt-4 mt-md-0">
+        <div class="icon-box">
+          <i class="bi bi-card-checklist"></i>
+          <h4><a href="#">Consistencia entre el sistema y el mundo real</a></h4>
+        </div>
+      </div>
+      <div class="col-md-6 mt-4 mt-md-0">
+        <div class="icon-box">
+          <i class="bi bi-card-checklist"></i>
+          <h4><a href="#">Control y libertad del usuario</a></h4>
+        </div>
+      </div>
+      <div class="col-md-6 mt-4 mt-md-0">
+        <div class="icon-box">
+          <i class="bi bi-card-checklist"></i>
+          <h4><a href="#">Consistencia y estándares</a></h4>
+        </div>
+      </div>
+      <div class="col-md-6 mt-4 mt-md-0">
+        <div class="icon-box">
+          <i class="bi bi-card-checklist"></i>
+          <h4><a href="#">Prevención de errores</a></h4>
+        </div>
+      </div>
+      <div class="col-md-6 mt-4 mt-md-0">
+        <div class="icon-box">
+          <i class="bi bi-card-checklist"></i>
+          <h4><a href="#">Reconocimiento en lugar de memoria</a></h4>
+        </div>
+      </div>
+      <div class="col-md-6 mt-4 mt-md-0">
+        <div class="icon-box">
+          <i class="bi bi-card-checklist"></i>
+          <h4><a href="#">Flexibilidad y eficiencia de uso</a></h4>
+        </div>
+      </div>
+      <div class="col-md-6 mt-4 mt-md-0">
+        <div class="icon-box">
+          <i class="bi bi-card-checklist"></i>
+          <h4><a href="#">Estética y diseño minimalista</a></h4>
+        </div>
+      </div>
+      <div class="col-md-6 mt-4 mt-md-0">
+        <div class="icon-box">
+          <i class="bi bi-card-checklist"></i>
+          <h4><a href="#">Reconocimiento, diagnóstico y recuperación de errores</a></h4>
+        </div>
+      </div>
+      <div class="col-md-6 mt-4 mt-md-0">
+        <div class="icon-box">
+          <i class="bi bi-card-checklist"></i>
+          <h4><a href="#">Ayuda y documentación</a></h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</section><!-- End Heuristica-->
+
+<!-- ======= Nombre y marca ======= -->
+<section id="nombreymarca" class="services section-bg">
+  <div class="container" data-aos="fade-up">
+    <div class="section-title">
+      <h2>Nombre y Marca</h2>
+      <p>Análisis de Marcas</p>
+    </div>
+    <div class="row" data-aos="fade-up" data-aos-delay="200">
+      <div class="col-md-6">
+        <div class="icon-box">
+          <h4><a class="tex-center" href="#">Análisis de marcas del sector</a></h4>
+          <div style="height: 0.5rem;"></div>
+          <ul>
+            <li>Too Good To Go</li>
+            <li>Olio</li>
+            <li>Karma</li>
+            <li>ShareTheMeal</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-6 mt-4 mt-md-0">
+        <div class="icon-box">
+          <h4><a href="#">Definición de Conceptos y/o atributos de Marca</a></h4>
+          <div style="height: 0.5rem;"></div>
+          <ul>
+            <li>Solidaridad</li>
+            <li>Sostenibilidad</li>
+            <li>Conexión</li>
+            <li>Empatía</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-6 mt-4 mt-md-0">
+        <div class="icon-box">
+          <h4><a href="#">Tipografía de Marca</a></h4>
+          <div style="height: 0.5rem;"></div>
+          <ul>
+            <li style="font-family: 'Monteserrat';">Monteserrat</li>
+            <li style="font-family: 'Roboto';">Roboto</li>
+            <li style="font-family: 'Lato';" >Lato</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-6 mt-4 mt-md-0">
+        <div class="icon-box">
+          <h4><a href="#">Paletas cromáticas</a></h4>
+          <div style="height: 0.5rem;"></div>
+          <ul>
+            <li>Colores cálidos</li>
+            <li>Colores naturales</li>
+            <li>Colores brillantes y alegres</li>
+            <li>Colores monocromáticos suaves</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-6 mt-4 mt-md-0">
+        <div class="icon-box">
+          <h4><a href="#">Diseño de Marca</a></h4>
+          <div style="height: 0.5rem;"></div>
+          <ul>
+            <li>El nombre de la marca es SobrApp, la fuente utilizada para el logo es HK Grotesk.</li>
+            <li>El nombre de la marca es descriptivo.</li>
+          </ul>
+        </div>
+      </div>
+  </div>
+</div>
+</section><!-- End Nombre y Marca-->
+
+
+<!-- ======= Wireframe ======= -->
+<section id="wireframe" class="team section-bg">
+  <div class="container" data-aos="fade-up">
+
+    <div class="section-title">
+      <h2>Wireframe</h2>
+      <p>Esquema de pantalla</p>
+    </div>
+
+    <div class="d-flex justify-content-center">
+      <div class="col-lg-8 col-md-6">
+        <div class="member" data-aos="fade-up" data-aos-delay="100">
+          <div class="pic"><img src="assets/img/wireframe/wireframe.png" class="img-fluid" alt=""></div>
+          <div class="tag">
+            <h4>Wireframe</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section><!-- End Wireframe-->
+
+<!-- ======= Moodboard ======= -->
+<section id="moodboard" class="team section-bg">
+  <div class="container" data-aos="fade-up">
+    <div class="section-title">
+      <h2>Moodboard</h2>
+      <p>Muro de Inspiración</p>
+    </div>
+
+    <div class="d-flex justify-content-center">
+      <div class="col-lg-4 col-md-6">
+        <div class="member" data-aos="fade-up" data-aos-delay="100">
+          <div class="pic"><img src="assets/img/moodboard/moodboard.jpg" class="img-fluid" alt=""></div>
+          <div class="tag">
+            <h4>Moodboard</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section><!-- End Moodboard -->
+
+  <!-- ======= Mockup ======= -->
+<section id="mockup" class="team section-bg">
+  <div class="container" data-aos="fade-up">
+
+    <div class="section-title">
+      <h2>Mockup</h2>
+      <p>Prototipo de la apliación</p>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 col-md-6" style="flex: 0.838">
+        <div class="member" data-aos="fade-up" data-aos-delay="100">
+          <div class="pic"><img src="assets/img/mockup/mockup_restaurante.jpg" class="img-fluid" alt=""></div>
+          <div class="tag">
+            <h4>Mockup Restaurante</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="300" style="flex: 1.0">
+        <div class="member">
+          <div class="pic"><img src="assets/img/mockup/mockup_comedor.jpg" class="img-fluid" alt="" ></div>
+          <div class="tag">
+            <h4>Mockup Comedor</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section><!-- End Mockup -->
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
-      <div class="container" data-aos="fade-up"">
+      <div class="container" data-aos="fade-up">
 
     <div class=" section-title">
         <h2>Contacto</h2>
